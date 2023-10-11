@@ -5,7 +5,4 @@ FROM node:14
 WORKDIR /IdeaProjects
 
 # Add the current directory contents into the container at /app
-ADD .idea ./test-demo-app
-
-ADD Dockerfile ./test-demo-app
-ADD Dockerfile .
+ADD .idea ./test-demo-app/.idea
